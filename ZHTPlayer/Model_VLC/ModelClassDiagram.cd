@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Model.BaseModel" Collapsed="true">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAgAAAAAAAAAgAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Model.ErrorEventArgs" Collapsed="true">
+    <Position X="35.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DVR\Device.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Device" Collapsed="true">
+    <Position X="14" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAAAAEABACAAQIEAAEAAEAQAqBAEAAgGAQAgBgEAACA=</HashCode>
+      <FileName>DVR\Device.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.212" />
+  </Class>
+  <Class Name="Model.Camera" Collapsed="true">
+    <Position X="5.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAiCABAACAABAAAAAAQIBgIAAQAAAAApBAACAAAAAA=</HashCode>
+      <FileName>DVR\Camera.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Model.CameraBase" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEBAAAAAQIAAAEAQEAQIgAEEAAAAoQAAAAAAAAA=</HashCode>
+      <FileName>DVR\CameraBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Model.CameraGroupItem" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAACAAAEAAAAACAAAAAAAAQAAAAAAAAAAAFAAAAAAAA=</HashCode>
+      <FileName>DVR\CameraGroupItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Model.CameraGroup" Collapsed="true">
+    <Position X="12" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgCAAAAAAACABAAIAAIAQIAAQAAAAApAAAAAAAAAA=</HashCode>
+      <FileName>DVR\CameraGroupItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Model.CameraLayout" Collapsed="true">
+    <Position X="35.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIQAAAAAAAAACBAAACQMABAAAAAECAAAAAAgg=</HashCode>
+      <FileName>DVR\CameraLayout.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.CameraPanel" Collapsed="true">
+    <Position X="18.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAQAAQAgEAEAAAIAQAACAAAAAA=</HashCode>
+      <FileName>DVR\CameraPanel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Model.CameraPanelGroup" Collapsed="true">
+    <Position X="20.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>DVR\CameraPanelGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.CameraPanelItem" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAACAAAAAAAAACAQgAAAAAAAAAAAAAABABECAAAAAAA=</HashCode>
+      <FileName>DVR\CameraPanelItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.CHCNetSDK" Collapsed="true">
+    <Position X="37.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/////+////////////////////////////////////8=</HashCode>
+      <FileName>DVR\CHCNetSDK.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.HKErrorEventArg" Collapsed="true">
+    <Position X="32.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>DVR\DVR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.DVR" Collapsed="true">
+    <Position X="16.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAACAAAAEAAAACIAAAAAAAAEAAAAAABAAAAAA=</HashCode>
+      <FileName>DVR\DVR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.DVRBase" Collapsed="true">
+    <Position X="14" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAEAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>DVR\DVRBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Map" Collapsed="true">
+    <Position X="35.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAQAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Map.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Marker" Collapsed="true">
+    <Position X="37.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAADAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Map.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.RecrodLog" Collapsed="true">
+    <Position X="23" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAQAAAAAAAAAAAAAAAAAAgAAAAAQgAAAAQEQA=</HashCode>
+      <FileName>RecrodLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.ResponseData" Collapsed="true">
+    <Position X="34" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAgAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>ResponseData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.FixedSizeObservableCollection&lt;T&gt;" Collapsed="true">
+    <Position X="37.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SystemLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.SystemLog" Collapsed="true">
+    <Position X="16.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAUAAAAACAAABAAgAAAEAAQAGIEEAEAA=</HashCode>
+      <FileName>SystemLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Model.IPlay" Collapsed="true">
+    <Position X="34" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgCAAAAAAAAAAAAAAAIAQIAAQAAAAApAAAAAAAAAA=</HashCode>
+      <FileName>DVR\IPlay.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Model.ConnectionState" Collapsed="true">
+    <Position X="32.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAEAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>ConnectionState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Model.CameraCommandType" Collapsed="true">
+    <Position X="35.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAIAIACACAGAAAAAAAA=</HashCode>
+      <FileName>DVR\Camera.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Model.HKViewType" Collapsed="true">
+    <Position X="34" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>DVR\Camera.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Model.CameraPanelType" Collapsed="true">
+    <Position X="37.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAA=</HashCode>
+      <FileName>DVR\CameraPanel.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Model.PlayContentType" Collapsed="true">
+    <Position X="37.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>DVR\CameraPanelItem.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Model.MarkerType" Collapsed="true">
+    <Position X="35.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Map.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Model.RecordType" Collapsed="true">
+    <Position X="32.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAA=</HashCode>
+      <FileName>RecrodLog.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="Model.ErrorDelegate" Collapsed="true">
+    <Position X="35.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>DVR\Device.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

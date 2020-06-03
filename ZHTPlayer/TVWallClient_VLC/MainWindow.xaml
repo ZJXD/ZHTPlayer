@@ -1,0 +1,67 @@
+﻿<Window x:Class="TVWallClient.UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="智慧监控平台" Cursor="None" WindowStyle="None" ResizeMode="NoResize"
+         Icon="tv.png" >
+    <Window.Resources>
+        <Storyboard x:Key="alarmStoryBoard" RepeatBehavior="Forever">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="border">
+                <EasingDoubleKeyFrame KeyTime="0:0:0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </Window.Resources>
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="FrameworkElement.Loaded" SourceName="border">
+            <BeginStoryboard x:Name="alarmStoryBoard_BeginStoryboard" Storyboard="{StaticResource alarmStoryBoard}"/>
+        </EventTrigger>
+    </Window.Triggers>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="290*"/>
+            <ColumnDefinition Width="21*"/>
+            <ColumnDefinition Width="73*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Name="gridVideo" Grid.ColumnSpan="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="127*"/>
+                <ColumnDefinition Width="257*"/>
+            </Grid.ColumnDefinitions>
+
+        </Grid>
+        <Border Margin="0,30,0,0" Height="10" VerticalAlignment="Top" Grid.ColumnSpan="3">
+            <Popup Placement="Center"
+               
+               AllowsTransparency="True"
+               x:Name="alarmBorder"
+               PopupAnimation="Slide"
+               Margin="0"
+               IsOpen="False">
+                <Border   
+                
+                Height="50"
+                Background="Wheat"
+                BorderThickness="3">
+                    <Border.BorderBrush>
+                        <LinearGradientBrush SpreadMethod="Repeat" StartPoint="0,5" EndPoint="5,0" MappingMode="Absolute">
+                            <LinearGradientBrush.GradientStops>
+                                <GradientStop Color="Yellow" Offset="0"/>
+                                <GradientStop Color="Yellow" Offset="0.2"/>
+                                <GradientStop Color="Gray" Offset="0.4"/>
+                                <GradientStop Color="Gray" Offset="0.6"/>
+                                <GradientStop Color="Yellow" Offset="0.8"/>
+                                <GradientStop Color="Yellow" Offset="1"/>
+                            </LinearGradientBrush.GradientStops>
+                        </LinearGradientBrush>
+                    </Border.BorderBrush>
+
+                    <StackPanel Width="Auto"  Orientation="Horizontal">
+                        <Image Name="border" Source="alarm.png" HorizontalAlignment="Center" Margin="5,0" />
+                        <TextBlock FontWeight="Bold" Foreground="Red" x:Name="lblAlarmMessage" VerticalAlignment="Center" FontSize="25" Margin="10,0" HorizontalAlignment="Center">警报</TextBlock>
+                    </StackPanel>
+                </Border>
+            </Popup>
+        </Border>
+    </Grid>
+
+</Window>
